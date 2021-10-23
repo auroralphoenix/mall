@@ -1,0 +1,55 @@
+/*1、顶部*/
+.top{
+	height: 28px;
+	background-color: red;
+}
+/*2、导航*/
+.nav{
+	height: 28px;
+	background-color:#CCC;
+}
+/*3、分类导航和bannner*/
+.menu{
+	height: 28px;
+	background-color: #333;
+}
+/*4、今日推荐*/
+.recommend{
+	height: 28px;
+	background-color: #ccc;
+}
+/*5、电纸书*/
+.ebooks{
+	height: 28px;
+	background-color: #333;
+}
+/*6、服装*/
+.clothes{
+	height: 28px;
+	background-color: #ccc;
+}
+/*7、户外活动*/
+.sports{
+	height: 28px;
+	background-color: #333;
+}
+/*8、童装*/
+.children-clothess{
+	height: 28px;
+	background-color: #ccc;
+}
+/*9、家居应用*/
+.daily{
+	height: 28px;
+	background-color: #333;
+}
+/*10、推广商品*/
+.promtion{
+	height: 28px;
+	background-color: #ccc;
+}
+/*11、尾部*/
+.footer{
+	height: 28px;
+	background-color: #333;
+}
