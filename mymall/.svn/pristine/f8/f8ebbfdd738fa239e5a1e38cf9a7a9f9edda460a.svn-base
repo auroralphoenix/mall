@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>乐购-快乐购物（legou.com)-正品低价、品质保障、配送及时、轻松购物！</title>
+<meta name="Keywords" content="乐购legou.COM-专业的综合网上购物商城，为您提供正品低价的购物选择、优质便捷的服务体验。商品来自全球数十万品牌商家，囊括家电、手机、电脑、服装、居家、母婴、美妆、个护、食品、生鲜等丰富品类，满足各种购物需求。">
+<!-- 引入样式 -->
+<link rel="stylesheet" href="../../css/common.css">
+<link rel="stylesheet" href="../../css/reset.css">
+</head>
+<body>
+	<!-- 1、顶部 -->
+	<div class="topbar">
+	<div class="container clearfix">
+		<p class="fl">
+			<a href="#">www.legou.com</a></p>
+		<p class="fr"><span>欢迎光临<a class="title" href="#">乐购</a></span>，<span>请 <a href="#" class="login">登录</a>\<a class="register" href="#">注册</a></span>
+		</p>
+		</div>
+	</div>
+	<!-- 2、导航 -->
+	<div class="nav container">
+<!--搜索框购物车 订单-->
+		<div class="search-shopcart-order clearfix">
+<!--购物车&订单-->
+		<div class="shopcart-order fr">
+			<button>&nbsp;&nbsp;&nbsp;&nbsp;购物车<span>3</span></button>
+			<button>我的订单</button>
+			
+			</div>
+		<div class="search-input fr">
+		<input class="search" placeholder="创意文具" type="text">
+		<span></span>
+		</div>
+		</div>
+<!--小导航-->
+		<div class="category-menu clearfix">
+<!--左侧-->
+			<div class="left-logo fl"><img src="../../img/logo.jpg"></div>
+<!--右侧-->
+			<ul class="fr">
+			    <li>图书</li>
+				<li>电子书</li>
+				<li>原创文学</li>
+				<li>服装</li>
+				<li>户外运动</li>
+				<li>孕婴类</li>
+				<li>家居</li>
+				<li>创意文学</li>
+				<li>地方特产</li>
+				<li>海外购物</li>
+				<li>电器城</li>
+			</ul>
+		</div>
+		</div>
+	<div style="height: 500px;"></div>
+	<!-- 11、尾部 -->
+	<div class="footer container">
+	<div class="top clearfix">
+		<div class="center fl">
+		<ul>
+		<li><img src="../../img/222_11.png"></li>
+		<li><img src="../../img/222_13(1).png"></li>
+		<li><img src="../../img/222_15.png"></li>
+		<li><img src="../../img/222_17.png"></li>
+		</ul>
+		</div>
+		</div>
+	<div class="content clearfix">
+		<div class="box1 fl">
+   <ul>
+	   <li><dd><h4>购物指南</h4></dd>
+	       <dd>购物流程</dd>
+	       <dd>发票制度</dd>
+	       <dd>账户管理</dd>
+		   <dd>会员优惠</dd>
+	      </li>
+	   	   <li><dd><h4>支付方式</h4></dd>
+	       <dd>购物流程</dd>
+	       <dd>发票制度</dd>
+	       <dd>账户管理</dd>
+		   <dd>会员优惠</dd>
+	      </li>
+	   	   	   <li><dd><h4>订单服务</h4></dd>
+	       <dd>购物流程</dd>
+	       <dd>发票制度</dd>
+	       <dd>账户管理</dd>
+		   <dd>会员优惠</dd>
+	      </li>
+	   	   	   <li><dd><h4>退换货</h4></dd>
+	       <dd>购物流程</dd>
+	       <dd>发票制度账户管理</dd>
+	       <dd>账户管理账户管理</dd>
+		   <dd>会员优惠会员优惠</dd>
+	      </li>
+	   	   	   <li><dd><h4>商家服务</h4></dd>
+	       <dd>购物流程</dd>
+	       <dd>发票制度</dd>
+	       <dd>账户管理</dd>
+	      </li>
+		</ul>
+		</div>
+		<img src="../../img/logo_00.png" width="200px">
+		<div class="bigbox">
+		<div class="box2 fl">
+			<ul>
+			   <li>公司简介&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;invetor Relations&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;网站联盟&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;乐购招商&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;机构销售&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;官方logo&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;热搜词汇</li>
+				</ul>
+		</div>
+					<div class="box3 fl">
+			<ul>
+			   <li>copydbg&nbsp;(c)&nbsp;&nbsp;乐购网&nbsp;&nbsp;2004-2016.&nbsp;AI|&nbsp;&nbsp;Rights &nbsp;Reseved</li>
+				</ul>
+		</div>
+		</div>
+	   </div>
+	</div>
+	<!--引入jQuery.min-->
+	<script src="../../js/jQuery轮播插件/js/jquery-1.11.0.js"></script>
+</body>
+</html>
