@@ -9,7 +9,7 @@
 <!-- 引入样式 -->
 <link rel="stylesheet" href="../../css/common.css">
 <link rel="stylesheet" href="../../css/reset.css">
-	<link rel="stylesheet" href="../../css/shop.css">
+<link rel="stylesheet" href="../../css/register.css">
 </head>
 <body>
 	<!-- 1、顶部 -->
@@ -56,55 +56,17 @@
 			</ul>
 		</div>
 		</div>
-	<div class="shopcart container">
-<!--全部商品-->
-	<h3>全部商品（<i class="goodsCount">2</i>）</h3>
-<!--表格-->
-	<table>
-		<thead>
-		<tr>
-			<th><input type="checkbox"></th>
-			<th>商品</th>
-			<th>单价</th>
-			<th>数量</th>
-			<th>小计</th>
-			<th>操作</th>
-			</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td><input type="checkbox"></td>
-			<td><img src="../../img/index08_05.jpg" alt="">从你的全世界路过</td>
-			<td class="price">41.00</td>
-			<td>
-			<button class="add">+</button>
-		    <input type="text" value="1">
-			<button class="reduce">-</button>
-			</td>
-			<td class="subprice">41.00</td>
-			<td class="del">删除</td>
-			</tr>
-			<tr>
-			<td><input type="checkbox"></td>
-			<td><img src="../../img/index08_05.jpg" alt="">从你的全世界路过</td>
-			<td class="price">11.00</td>
-			<td>
-			<button class="add">+</button>
-		    <input type="text" value="1">
-			<button class="reduce">-</button>
-			</td>
-			<td class="subprice">11.00</td>
-			<td class="del">删除</td>
-			</tr>
-		</tbody>
-		</table>
-		<div class="totalPrice">
-			<input type="checkbox">全选
-			<span class="deleteChecked">删除选中的商品</span>
-			<span>已选择<i class="count"> 0 </i>件商品</span> 
-			<span>总价：<i class="total"> 0.00</i></span>
-			<button id="btn">去结算</button>
-		</div>
+	<div class="register container">
+	<h1>用户注册</h1>
+		
+	<form  id="registerForm" action="register.php">
+		<p>用户名：<input type="text" name="username"></p>
+		<p>密码：<input id="password" type="text" name="password"></p>
+		<p>确认密码：<input type="text" name="checkPassword"></p>
+		<p>电话号码：<input type="text" name="tel"></p>
+		<p>验证码：<input type="text"></p>
+		<p><input type="submit" value="立即注册"></p>
+		</form>
 	</div>
 	<!-- 11、尾部 -->
 	<div class="footer container">
@@ -167,37 +129,9 @@
 		</div>
 	   </div>
 	</div>
-	<!--	蒙层-->
-	<div class="model clearfix">
-		<div class="content">
-		<div class="box1-1">
-			<div class="left fl">确认支付</div>
-			<div class=" right fr" id="close">x</div>
-			</div>
-			<div class="box2-2">是否去支付中心？</div>
-			<div class="box3-3 clearfix">
-				<div class="left fl" id="closed">取消</div>
-				<div class="right fr">去支付</div>
-			</div>
-		</div>
-	</div>
 	<!--引入jQuery.min-->
 	<script src="../../js/jQuery轮播插件/js/jquery-1.11.0.js"></script>
-	<script src="../../js/shop.js"></script>
-	<script>
-	$(function(){
-	//打开模态
-		$('#btn').click(function(){
-			$('.model').fadeIn();
-		})
-		//关闭模态框
-		$('#close').click(function(){
-			$('.model').fadeOut();
-		})
-		$('#closed').click(function(){
-			$('.model').fadeOut();
-		})
-	})
-	</script>
+	<script src="../../js/jquery.validate.min.js"></script>
+	<script src="../../js/register.js"></script>
 </body>
 </html>
