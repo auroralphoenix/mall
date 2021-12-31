@@ -31,14 +31,22 @@
 </head>
 <body>
 	<!--	星级评分-->
-<div class="xing">
+<!--
+	<span class="on iconfont icon-star-full"></span>
+	<span class="half iconfont icon-star-half"></span>
+	<span class="off iconfont icon-star-full"></span>
+--><div class="box1">
+	</div>
+	<div class="box2">
+	</div>
+	<div class="box3">
 	</div>
 	<!-- 1、顶部 -->
 	<div class="topbar">
 	<div class="container clearfix">
 		<p class="fl">
 			<a href="#">www.legou.com</a></p>
-		<p class="fr"><span>欢迎光临<a class="title" href="file:///D:/Mall%20development/mall/mymall/code/ch9/index.html">乐购</a></span>，<span>请 <a href="#" class="login">登录</a>\<a class="register" href="file:///D:/Mall%20development/mall/mymall/code/template/register.html">注册</a></span>
+		<p class="fr"><span>欢迎光临<a class="title" href="#">乐购</a></span>，<span>请 <a href="#" class="login">登录</a>\<a class="register" href="#">注册</a></span>
 		</p>
 		</div>
 	</div>
@@ -1150,7 +1158,7 @@
 	<script>
 		$(function(){
 			var star1 = createStarRate(3.6);
-			$('.xing').html(star1);
+			$('.box1').html(star1);
 		})
 		</script>
 <!--引入轮播图插件-->
